@@ -226,7 +226,7 @@
             ,playerH=document.getElementById('player').offsetHeight
 
 
-        document.onmousedown=function () {
+        document.ontouchmove=function () {
             this.onmousemove=myPlaneMove;
         }
         function myPlaneMove(e) {
